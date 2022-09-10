@@ -1,14 +1,22 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Student Dashboard</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="message.js"></script>  
+    <script src="script.js"></script>
 </head>
+
 <body>
-    <div id="main">
-        <h1>Test</h1>
+
+<div class="container">
+    <div class="clock">
+        <div id="clockTimeText" onload="currentTime()"></div>
+        <div id="clockTimeBackground"></div>
     </div>
-    <div></div>
-        <p id="clock">paragraph test</p>
-    </div>
+    <div class="clockDate"></div>
+    <div class="weather"></div>
+    <div class="todoList"></div>
+</div>
+
 </body>
+</html>
